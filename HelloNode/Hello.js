@@ -2,7 +2,7 @@ var http = require('http');
 
 function get(req, res) {
 	
-	var body = "Questa è una prova scritta con eclipse!<br>";
+	var body = "<p>Questa è una prova scritta con eclipse!<br>";
 	body += new Date();
 	var len = body.length+1;
 	
